@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor Por defecto"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel2" max="32767" attributes="0"/>
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                          <Component id="jLabel4" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cj3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cj2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cj1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="numero" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ultimo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="primer" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="vacia" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="llena" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="us1" pref="45" max="32767" attributes="0"/>
+                                  <Component id="u1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="us2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="u2" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us4" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u4" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us5" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u5" min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Component id="jSeparator2" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us6" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u6" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us7" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u7" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us8" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u8" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="us9" min="-2" max="-2" attributes="0"/>
+                                          <Component id="u9" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="adicionar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="editar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lb1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="usadd" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cj1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="cj2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cj3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="u9" max="32767" attributes="0"/>
+                      <Component id="u2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="u4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="u3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="u6" alignment="0" max="32767" attributes="0"/>
+                      <Component id="u5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="u7" alignment="0" max="32767" attributes="0"/>
+                      <Component id="u8" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="u1" min="-2" pref="44" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="us1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="us9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="primer" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ultimo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="numero" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator2" alignment="1" min="-2" pref="84" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Component id="llena" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="vacia" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="adicionar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="editar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lb1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="usadd" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SUPERMARKET"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/cola/cajero.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/cola/cajero.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/cola/cajero.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cj1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cajero 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cj1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cj2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cajero 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cj2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cj3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cajero 3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cj3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="u1">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="u2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="u9">
+    </Component>
+    <Component class="javax.swing.JButton" name="adicionar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adicionar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="adicionarMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adicionarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="us9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="      "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="primer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Primer Usuario:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ultimo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ultimo Usuario:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nro. de Usuario:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="llena">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Llena"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vacia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vacia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="editar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lb1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Usuario a adicionar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="usadd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="usr1"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
