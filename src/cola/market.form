@@ -58,13 +58,11 @@
                               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="numero" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="ultimo" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="primer" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="vacia" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="llena" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="ultimo" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -93,27 +91,33 @@
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="us5" min="-2" max="-2" attributes="0"/>
                                           <Component id="u5" min="-2" pref="46" max="-2" attributes="0"/>
-                                          <Component id="jSeparator2" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="us6" min="-2" max="-2" attributes="0"/>
                                           <Component id="u6" min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="jSeparator2" min="-2" pref="18" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="us7" min="-2" max="-2" attributes="0"/>
-                                          <Component id="u7" min="-2" pref="45" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="us8" min="-2" max="-2" attributes="0"/>
-                                          <Component id="u8" min="-2" pref="45" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="us9" min="-2" max="-2" attributes="0"/>
-                                          <Component id="u9" min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="us7" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="u7" min="-2" pref="45" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="us8" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="u8" min="-2" pref="45" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="us9" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="u9" min="-2" pref="45" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="llena" min="-2" max="-2" attributes="0"/>
+                                          <Component id="vacia" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -189,29 +193,31 @@
               </Group>
               <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="primer" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="ultimo" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="numero" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="primer" min="-2" pref="16" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="ultimo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="numero" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jSeparator2" min="-2" pref="84" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jSeparator2" alignment="1" min="-2" pref="84" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="adicionar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="editar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lb1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="usadd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                       <Component id="llena" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="vacia" min="-2" max="-2" attributes="0"/>
                   </Group>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="adicionar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="editar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lb1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="usadd" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
           </Group>
@@ -361,12 +367,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="numero">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Nro. de Usuario:"/>
+        <Property name="text" type="java.lang.String" value="Nro. de Usuarios:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="llena">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Llena"/>
+        <Property name="text" type="java.lang.String" value="No esta llena"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="vacia">

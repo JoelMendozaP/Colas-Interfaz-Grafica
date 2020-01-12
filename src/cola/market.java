@@ -4,7 +4,6 @@ package cola;
 public class market extends javax.swing.JFrame {
     
     Cola c=new Cola();
-    int cont = 1;
 
     public market() {
         initComponents();
@@ -120,9 +119,9 @@ public class market extends javax.swing.JFrame {
 
         ultimo.setText("Ultimo Usuario:");
 
-        numero.setText("Nro. de Usuario:");
+        numero.setText("Nro. de Usuarios:");
 
-        llena.setText("Llena");
+        llena.setText("No esta llena");
 
         vacia.setText("Vacia");
 
@@ -169,12 +168,10 @@ public class market extends javax.swing.JFrame {
                                 .addGap(31, 31, 31)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(numero)
-                                    .addComponent(ultimo)
-                                    .addComponent(primer))
-                                .addGap(159, 159, 159)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(vacia, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(llena, javax.swing.GroupLayout.Alignment.TRAILING)))
+                                    .addComponent(primer)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(ultimo)
+                                        .addGap(37, 37, 37))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(us1, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
@@ -196,24 +193,28 @@ public class market extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(us5)
-                                            .addComponent(u5, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(u5, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(us6)
-                                            .addComponent(u6, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(u6, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(us7)
-                                            .addComponent(u7, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(us8)
-                                            .addComponent(u8, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(us9)
-                                            .addComponent(u9, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(us7)
+                                                    .addComponent(u7, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(us8)
+                                                    .addComponent(u8, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(us9)
+                                                    .addComponent(u9, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(llena)
+                                            .addComponent(vacia)))
                                     .addComponent(jLabel1)))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(41, 41, 41)
@@ -273,25 +274,26 @@ public class market extends javax.swing.JFrame {
                     .addComponent(us9))
                 .addGap(61, 61, 61)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(primer)
-                            .addGap(18, 18, 18)
-                            .addComponent(ultimo)
-                            .addGap(18, 18, 18)
-                            .addComponent(numero))
-                        .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(13, 13, 13)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(primer, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(ultimo)
+                                .addGap(24, 24, 24)
+                                .addComponent(numero))
+                            .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(adicionar)
+                            .addComponent(editar)
+                            .addComponent(lb1)
+                            .addComponent(usadd)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(11, 11, 11)
                         .addComponent(llena)
                         .addGap(18, 18, 18)
                         .addComponent(vacia)))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(adicionar)
-                    .addComponent(editar)
-                    .addComponent(lb1)
-                    .addComponent(usadd))
                 .addGap(28, 28, 28))
         );
 
@@ -308,8 +310,7 @@ public class market extends javax.swing.JFrame {
         // TODO add your handling code here:adicionar
         c.Push(usadd.getText());
         vista();
-        cont++;
-        usadd.setText("usr"+(cont));
+        usadd.setText("usr"+c.getContador());
     }//GEN-LAST:event_adicionarActionPerformed
 
     private void cj2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cj2ActionPerformed
@@ -433,6 +434,13 @@ public class market extends javax.swing.JFrame {
             us9.setText(" ");
             u9.setIcon(new javax.swing.ImageIcon(getClass().getResource("")));
         }
+        primer.setText("Primer Usuario: "+c.Primero() );
+        ultimo.setText("Ultimo Usuario: "+c.Ultimo());
+        numero.setText("Nro. de Usuarios: "+c.Elementos());
+        llena.setText(c.EstaLlena());
+        vacia.setText(c.EstaVacia());
+        
+        
     }
     
     
