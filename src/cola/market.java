@@ -301,36 +301,30 @@ public class market extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void cj1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cj1ActionPerformed
-        // TODO add your handling code here:1111
         c.Pop();
         vista();
     }//GEN-LAST:event_cj1ActionPerformed
 
     private void adicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adicionarActionPerformed
-        // TODO add your handling code here:adicionar
         c.Push(usadd.getText());
         vista();
         usadd.setText("usr"+c.getContador());
     }//GEN-LAST:event_adicionarActionPerformed
 
     private void cj2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cj2ActionPerformed
-        // TODO add your handling code here:222
         c.Pop();
         vista();
     }//GEN-LAST:event_cj2ActionPerformed
 
     private void cj3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cj3ActionPerformed
-        // TODO add your handling code here:333
         c.Pop();
         vista();
     }//GEN-LAST:event_cj3ActionPerformed
 
     private void adicionarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_adicionarMouseClicked
-        // TODO add your handling code here:
     }//GEN-LAST:event_adicionarMouseClicked
 
     private void editarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_editarActionPerformed
-        // TODO add your handling code here:
         adicionar abrir = new adicionar();
         abrir.setVisible(true);
     }//GEN-LAST:event_editarActionPerformed
@@ -339,7 +333,6 @@ public class market extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
@@ -362,7 +355,6 @@ public class market extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new market().setVisible(true);
@@ -439,8 +431,6 @@ public class market extends javax.swing.JFrame {
         numero.setText("Nro. de Usuarios: "+c.Elementos());
         llena.setText(c.EstaLlena());
         vacia.setText(c.EstaVacia());
-        
-        
     }
     
     

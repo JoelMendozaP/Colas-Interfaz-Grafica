@@ -1,5 +1,4 @@
 package cola;
-
 public class Cola {
     Object cola[]= new Object[9];
     int bola = 0;
